@@ -180,6 +180,67 @@ namespace PayCompute.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        public IActionResult Detail(int id)
+        {
+            var employee = _employeeService.GetById(id);
+
+            if(employee == null)
+            {
+                return NotFound();
+            }
+
+            EmployeeDetailViewModel model = new EmployeeDetailViewModel()
+            {
+                Id = employee.Id,
+                Email = employee.Email,
+                EmployeeNo = employee.EmployeeNo,
+                FullName = employee.FullName,
+                Gender = employee.Gender,
+                DOB = employee.DOB,
+                DateJoined = employee.DateJoined,
+                Designation = employee.Designation,
+                NationalInsuranceNo = employee.NationalInsuranceNo,
+                Phone = employee.Phone,
+                PaymentMethod = employee.PaymentMethod,
+                UnionMember = employee.UnionMember,
+                StudentLoan = employee.StudentLoan,
+                Address = employee.Address,
+                City = employee.City,
+                ImageUrl = employee.ImageUrl,
+                PostCode = employee.PostCode
+            };
+
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var employee = _employeeService.GetById(id);
+
+            if(employee == null)
+            {
+                return NotFound();
+            }
+
+            var model = new EmployeeDeleteViewModel()
+            {
+                Id = employee.Id,
+                FullName = employee.FullName
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(EmployeeDeleteViewModel model)
+        {
+           await _employeeService.Delete(model.Id);
+            return RedirectToAction(nameof(Index));
+        }
+
         public async void ImageSetup(EmployeeEditViewModel model)
         {
             var employee = _employeeService.GetById(model.Id);
