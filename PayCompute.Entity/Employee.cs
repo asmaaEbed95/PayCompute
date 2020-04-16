@@ -31,6 +31,8 @@ namespace PayCompute.Entity
 
         public DateTime DateJoined { get; set; }
 
+        public string Phone { get; set; }
+
         //job role
         public string Designation { get; set; }
 
