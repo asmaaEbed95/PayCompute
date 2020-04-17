@@ -20,7 +20,6 @@ F:\Demos\PayComputeCore2.2\PayCompute.Services\bin\Debug\netcoreapp2.2\PayComput
 F:\Demos\PayComputeCore2.2\PayCompute.Services\bin\Debug\netcoreapp2.2\PayCompute.Entity.pdb
 F:\Demos\PayComputeCore2.2\PayCompute.Services\bin\Debug\netcoreapp2.2\PayCompute.Presistence.pdb
 F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.csprojAssemblyReference.cache
-F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.csproj.CoreCompileInputs.cache
 F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.AssemblyInfoInputs.cache
 F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.AssemblyInfo.cs
 F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.csproj.CopyComplete

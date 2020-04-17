@@ -13,18 +13,18 @@ namespace PayCompute.Models
         public int Id { get; set; }
 
         //regular means start with capital min 3 characters and max 3 characters and numbers from 1 to 9 
-        [Required(ErrorMessage = "Employee Number is Required"), RegularExpression(@"^[A-Z]{3,3}[0-9]$")]
+        [Required(ErrorMessage = "Employee Number is Required"), RegularExpression(@"^[A-Z]{3,3}[0-9]{3}$")]
         public string EmployeeNo { get; set; }
 
         [Required(ErrorMessage = "First Name is Required"), StringLength(50, MinimumLength = 2)]
-        [RegularExpression(@"^[A-Z][a-zA-Z""'\s-]*&"), Display(Name = "First Name")]
+        [RegularExpression(@"^[A-Z][a-zA-Z""'\s-]*$"), Display(Name = "First Name")]
         public string FirstName { get; set; }
 
         [StringLength(50), Display(Name = "Middle Name")]
         public string MiddleName { get; set; }
 
         [Required(ErrorMessage = "Last Name is Required"), StringLength(50, MinimumLength = 2)]
-        [RegularExpression(@"^[A-Z][a-zA-Z""'\s-]*&"), Display(Name = "Last Name")]
+        [RegularExpression(@"^[A-Z][a-zA-Z""'\s-]*$"), Display(Name = "Last Name")]
         public string LastName { get; set; }
 
         public string Gender { get; set; }
