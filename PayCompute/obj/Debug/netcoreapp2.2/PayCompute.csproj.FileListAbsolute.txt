@@ -82,3 +82,4 @@ F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.dll
 F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.pdb
 F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.genruntimeconfig.cache
 F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.csproj.CoreCompileInputs.cache
+F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Index.cshtml.g.cs
