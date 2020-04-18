@@ -191,7 +191,7 @@ namespace PayCompute.Controllers
         {
             var payslip = new ActionAsPdf("Payslip", new { id = id })
             {
-                FileName = _employeeService.GetById(id).FullName + " " + "Payslip.pdf"
+                FileName = _payComputationService.GetById(id).FullName + " " + "Payslip.pdf"
             };
             return payslip;
         }

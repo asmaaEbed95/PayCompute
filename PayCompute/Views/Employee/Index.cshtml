@@ -1,4 +1,4 @@
-﻿@model IEnumerable<EmployeeIndexViewModel>
+﻿@model EmployeeListPagination<EmployeeIndexViewModel>
 
 @{ ViewBag.Title = "Employee";}
 
@@ -65,22 +65,30 @@
                                     </tr>
                                 }
                             </tbody>
-                        </table><br />
-                        @*@{
-                            var disablePrevious = !Model.IsPreviousPageAvailable ? "disabled" : "";
-                            var disableNext = !Model.IsNextPageAvailable ? "disabled" : "";
-                        }
+                        </table>
 
-                        <a asp-action="Index"
-                           asp-route-pageNumber="@(Model.PageIndex - 1)"
-                           class="btn btn-primary @disablePrevious">
-                            Previous
-                        </a>
-                        <a asp-action="Index"
-                           asp-route-pageNumber="@(Model.PageIndex + 1)"
-                           class="btn btn-primary @disableNext">
-                            Next
-                        </a>*@
+                        <br />
+                        
+                        <div style="margin-bottom:15px">
+                            @{
+                                var disablePrevious = !Model.IsPreviousPageAvailable ? "disabled" : "";
+                                var disableNext = !Model.IsNextPageAvailable ? "disabled" : "";
+                            }
+
+                            <a asp-action="Index"
+                               asp-route-pageNumber="@(Model.PageIndex - 1)"
+                               class="btn btn-primary @disablePrevious">
+                                Previous
+                            </a>
+
+                            Page @(Model.PageIndex < Model.TotalPages ? 1 : Model.PageIndex) of @Model.TotalPages
+
+                            <a asp-action="Index"
+                               asp-route-pageNumber="@(Model.PageIndex + 1)"
+                               class="btn btn-primary @disableNext">
+                                Next
+                            </a>
+                        </div>
 
                     </div>
                 </div>
