@@ -81,7 +81,15 @@ F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.csproj.
 F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.dll
 F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.pdb
 F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.genruntimeconfig.cache
-F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.csproj.CoreCompileInputs.cache
 F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Index.cshtml.g.cs
 F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Create.cshtml.g.cs
 F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Edit.cshtml.g.cs
+F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Delete.cshtml.g.cs
+F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Detail.cshtml.g.cs
+F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Pay\Index.cshtml.g.cs
+F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Pay\Create.cshtml.g.cs
+F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Pay\Detail.cshtml.g.cs
+F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\Razor\Views\Pay\Payslip.cshtml.g.cs
+F:\Demos\PayComputeCore2.2\PayCompute\obj\Debug\netcoreapp2.2\PayCompute.csproj.CoreCompileInputs.cache
+F:\Demos\PayComputeCore2.2\PayCompute\bin\Debug\netcoreapp2.2\WkHtmlToPdf\wkhtmltoimage.exe
+F:\Demos\PayComputeCore2.2\PayCompute\bin\Debug\netcoreapp2.2\WkHtmlToPdf\wkhtmltopdf.exe

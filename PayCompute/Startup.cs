@@ -48,6 +48,9 @@ namespace PayCompute
 
             //make this service available for dependency injection, now i can inject IEmployeeService any where in the applicaiton
             services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<IPayComputationService, PayComputationService>();
+            services.AddScoped<ITaxService, TaxService>();
+            services.AddScoped<INationalInsuranceContributionService, NationalInsuranceContributionService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

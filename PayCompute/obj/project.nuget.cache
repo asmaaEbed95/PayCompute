@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fN5hzo076RLPYLIDqIl9tShNCfWn/Y0SM+Z7WKXrZ/KCJwa2VG4VzhmGbPW+XTOKtIGi0V3izXCjbp581GhTtA==",
+  "dgSpecHash": "nC9jpnnOwvdkzFWOpXCTh9XbGtoYkFwpr9PaLrXm1vBpfd43CDGkF2nF4vZvR52OFaBWxX7H7aVNcmbzvIrYkA==",
   "success": true,
   "projectFilePath": "F:\\Demos\\PayComputeCore2.2\\PayCompute\\PayCompute.csproj",
   "expectedPackageFiles": [
@@ -190,6 +190,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
+    "C:\\Users\\asmaa\\.nuget\\packages\\rotativacore\\2.2.0\\rotativacore.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

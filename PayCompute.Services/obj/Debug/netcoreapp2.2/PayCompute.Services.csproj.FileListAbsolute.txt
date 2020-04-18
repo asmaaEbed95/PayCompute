@@ -25,3 +25,4 @@ F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayComput
 F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.csproj.CopyComplete
 F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.dll
 F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.pdb
+F:\Demos\PayComputeCore2.2\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.csproj.CoreCompileInputs.cache
