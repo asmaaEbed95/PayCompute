@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting.Internal;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting.Internal;
 using Microsoft.AspNetCore.Mvc;
 using PayCompute.Entity;
 using PayCompute.Models;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace PayCompute.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly IEmployeeService _employeeService;
